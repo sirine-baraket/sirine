@@ -6,7 +6,10 @@
 <VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
       fx:controller="tn.esprit.sirine.HelloController"
       spacing="10">
-
+    <HBox spacing="10">
+        <TextField fx:id="searchField" promptText="Rechercher une publication..." />
+        <Button text="Rechercher" onAction="#rechercherPublication"/>
+    </HBox>
     <!-- Ajout de publication -->
     <Label text="Nouvelle publication" />
     <TextArea fx:id="publicationField" prefRowCount="3"/>

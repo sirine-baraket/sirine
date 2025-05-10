@@ -17,7 +17,7 @@ public class Publication {
     }
 
     public Publication() {
-
+;
     }
 
     public int getId() { return id; }
